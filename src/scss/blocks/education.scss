@@ -1,0 +1,56 @@
+.education {
+  display: flex;
+  flex-direction: column;
+}
+
+.education__list {
+  display: none;
+  flex-wrap: wrap;
+
+  @include desctopePoint {
+    justify-content: center;
+  }
+}
+
+.education__item {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+
+  &:nth-child(even) {
+    margin-right: 0;
+  }
+
+  @include desctopePoint {
+    max-width: 300px;
+  }
+
+  @include tabletsPoint {
+    max-width: 200px;
+  }
+}
+
+.education__picture-wrapper {
+  height: 570px;
+  width: 100%;
+  margin-bottom: 40px;
+
+  @include desctopePoint {
+    height: 450px;
+  }
+
+  @include tabletsPoint {
+    height: 335px;
+  }
+}
+
+.education__picture {
+  width: 100%;
+  height: 100%;
+}
+
+.education__text-block {
+  text-align: center;
+}

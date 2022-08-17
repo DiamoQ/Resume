@@ -1,0 +1,52 @@
+.left-column {
+  min-width: 370px;
+  background-color: #1E2939;
+  padding-top: 40px;
+  color: #fff;
+
+  @include desctopePoint {
+    display: flex;
+    justify-content: center;
+  }
+
+  @include tabletsPoint {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @include tabletsPoint {
+    display: none;
+  }
+}
+
+.left-column__avatar {
+  width: 100%;
+  margin-bottom: 51px;
+
+  &-img {
+    width: 100%;
+  }
+
+  @include desctopePoint {
+    max-width: 370px;
+  }
+}
+
+.subtitle {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.left-column__text-part {
+  padding-left: 40px;
+} 
+
+.skills__item-point {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #FB6D3A;
+  margin-top: -3px;
+  margin-right: 10px;
+}

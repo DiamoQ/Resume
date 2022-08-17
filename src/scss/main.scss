@@ -1,0 +1,12 @@
+$containerWidth: 1320px;
+$baseFontSize: 16px;
+
+//breakpoints
+
+$desctopePoint: 910px;
+$tablets: 768px;
+$tabletsPoint: 580px;
+$phones: 480px;
+
+@import 'media.scss';
+@import "./blocks/*.scss";

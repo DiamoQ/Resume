@@ -1,0 +1,49 @@
+.right-column {
+  color: #000;
+  padding-top:40px ;
+  padding-bottom: 107px ;
+  padding-left: 80px ;
+  background-color: #F2F2F2;
+
+  @include desctopePoint{
+    padding-left: 0;
+  }
+}
+
+.right-column__nav {
+  margin-bottom: 45px;
+}
+
+.right-column__nav-list {
+  display: flex;
+
+  @include desctopePoint {
+    justify-content: center;
+  }
+}
+
+.right-column__nav-item {
+  margin-right: 20px;
+  font-size: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.right-column__nav-link {
+  transition: color .3s;
+  cursor: pointer;
+
+  &:hover {
+    color: #FB6D3A;
+  }
+}
+
+.link-active {
+  color: #FB6D3A;
+}
+
+.list-active {
+  display: flex;
+}

@@ -1,0 +1,31 @@
+.contacts {
+  margin-bottom: 47px;
+}
+
+.contacts__title {
+  margin-bottom: 8px;
+}
+
+.contacts__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__item {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts__item-name {
+  margin-right: 10px;
+}
+
+.contacts__item-adress {
+  color: grey;
+  transition: color .3s;
+  
+
+  &:hover {
+    color: #fff;
+  }
+}
